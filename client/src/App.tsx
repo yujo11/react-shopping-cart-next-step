@@ -14,7 +14,7 @@ function App() {
           <Link to={PATH.HOME} className="text-4xl font-semibold">
             CLEAN CODE SHOP
           </Link>
-          <div className="text-3xl ">
+          <div className="text-2xl ">
             <Link to={PATH.CART} className="font-semibold">
               장바구니
             </Link>
@@ -23,7 +23,7 @@ function App() {
             </Link>
           </div>
         </Header>
-        <Content className="bg-white">
+        <Content className="bg-white p-6">
           <Routes>
             {ROUTES.map(({ path, component }) => (
               <Route path={path} key={path} element={component} />
