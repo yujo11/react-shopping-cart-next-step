@@ -1,6 +1,6 @@
-import Cart from "../pages/Cart";
-import Home from "../pages/Home";
-import Order from "../pages/Order";
+import Cart from "../pages/Cart/Cart";
+import Home from "../pages/Home/Home";
+import Order from "../pages/Order/Order";
 
 interface Route {
   path: string;
