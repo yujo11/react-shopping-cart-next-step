@@ -1,16 +1,16 @@
 import Button from "antd/lib/button";
+import Layout from "antd/lib/layout";
+import { Content, Footer, Header } from "antd/lib/layout/layout";
 import React from "react";
 import "./App.css";
 
 function App() {
   return (
-    <>
-      {" "}
-      <h1 className="text-3xl font-bold underline text-red-500">
-        Hello world!
-      </h1>
-      <Button type="primary">Button</Button>;
-    </>
+    <Layout>
+      <Header>Header</Header>
+      <Content>Content</Content>
+      <Footer>Footer</Footer>
+    </Layout>
   );
 }
 
